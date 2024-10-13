@@ -1,0 +1,30 @@
+
+
+.container {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+.select-country {
+   font-size: larger;
+   text-align: center;
+}
+
+.country-entry {
+    font-size: larger;
+    width: 15em;
+}
+
+
+table {
+    border: 2px solid blue;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table tr td, table tr th {
+    padding: 15px;
+    border: 2px solid blue;
+}

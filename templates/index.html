@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caching Using Web Storage API</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>List of European Countries</h1>
+        <select id="selectCountry" class="select-country" onchange="onChangeCountry()" size="1">
+            <option value="10">Austria</option>
+            <option value="20">Germany</option>
+            <option value="30">France</option>
+            <option value="40">Italy</option>
+            <option value="50">Spain</option>
+            <option value="60">England</option>
+        </select>
+
+        <br><br><br><br>
+        <div id="country_detail">
+            <table id="country_table">
+                <thead>
+                    <tr>
+                        <th>Country Name</th>
+                        <th>Capital</th>
+                        <th>Population</th>
+                        <th>Area</th>
+                        <th>Dialing Code</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</body>
+</html>
