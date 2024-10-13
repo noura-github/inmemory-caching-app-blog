@@ -3,38 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caching Using Web Storage API</title>
+    <title>Caching Using In-Memory Cache</title>
     <link rel="stylesheet" href="static/css/style.css">
     <script src="static/js/index.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>List of European Countries</h1>
-        <select id="selectCountry" class="select-country" onchange="onChangeCountry()" size="1">
-            <option value="10">Austria</option>
-            <option value="20">Germany</option>
-            <option value="30">France</option>
-            <option value="40">Italy</option>
-            <option value="50">Spain</option>
-            <option value="60">England</option>
+        <h1>List of James Bond Films</h1>
+        <select id="selectFilm" class="select-jb-film" onchange="onChangeJBFilm()" size="1">
+            <option value="10">No Time to Die (2021)</option>
+            <option value="20">Die Another Day (2002)</option>
+            <option value="30">The Living Daylights (1987)</option>
+            <option value="40">A View to a Kill (1985)</option>
+            <option value="50">Never Say Never Again (1983)</option>
         </select>
 
         <br><br><br><br>
-        <div id="country_detail">
-            <table id="country_table">
+        <div id="film_detail">
+            <table id="film_table">
                 <thead>
                     <tr>
-                        <th>Country Name</th>
-                        <th>Capital</th>
-                        <th>Population</th>
-                        <th>Area</th>
-                        <th>Dialing Code</th>
+                        <th>Film Title</th>
+                        <th>Year</th>
+                        <th>Starring</th>
+                        <th>Directed By</th>
                     </tr>
                 </thead>
                 <tbody>
                 </tbody>
             </table>
-
         </div>
     </div>
 </body>

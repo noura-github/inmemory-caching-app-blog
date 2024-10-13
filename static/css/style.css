@@ -3,28 +3,32 @@
 .container {
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
-    color: blue;
     text-align: center;
 }
 
-.select-country {
-   font-size: larger;
-   text-align: center;
+.select-jb-film {
+    height: 2em;
+    border: 2px solid grey;
 }
-
-.country-entry {
-    font-size: larger;
-    width: 15em;
-}
-
 
 table {
-    border: 2px solid blue;
+    border: 2px solid grey;
     border-collapse: collapse;
     margin: 0 auto;
 }
 
 table tr td, table tr th {
     padding: 15px;
-    border: 2px solid blue;
+    border: 2px solid grey;
+    text-align: left;
+}
+
+table tr th {
+    font-style: bold;
+    color: red;
+}
+
+table tr td {
+    font-style: normal;
+    color: black;
 }
